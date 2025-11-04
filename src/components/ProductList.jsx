@@ -26,7 +26,7 @@ const ProductList = () => {
             <div className="text-amber-50 text-3xl font-bold flex justify-center p-2 border-2 m-4 rounded-md">
                 <h3>Menu List</h3>
             </div> 
-            <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 p-4">
+            <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 p-4 gap-4">
                 {
                     Array.isArray(data) && data?.map(prod => (
                         <div key={prod.id} className="p-4 border-1 border-amber-50">
