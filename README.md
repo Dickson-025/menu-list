@@ -1,16 +1,22 @@
-# React + Vite
+# Menu List App
+A simple web app built with **React + Vite** to display a list of products or menus, using data from an API and carousel image support.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Demo
+[View Deployed App on Netlify]
+(https://react-menu-applist.netlify.app/)
 
-Currently, two official plugins are available:
+# About the Project
+This project fetches data from a public API and displays a grid of product cards with images, titles, and descriptions.  
+Includes a custom-built **Carousel component**, **UseFetch hook**, and **responsive layout using Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
+- React + Vite
+- Axios for API calls
+- Tailwind CSS
+- Netlify (for hosting)
 
-## React Compiler
+# Getting Started
+npm i && npm run dev || npm i && npm run build
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Clone the repo
+git clone https://github.com/Dickson-025/menu-list.git
